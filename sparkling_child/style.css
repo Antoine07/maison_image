@@ -1,0 +1,97 @@
+/*
+
+ Theme Name:   Sparkling Child
+
+ Theme URI:    
+
+ Description:  Sparkling Child Theme
+
+ Author:       Julien Poujade
+
+ Author URI:   
+
+ Template:     sparkling
+
+ Version:      1.0.0
+
+ License:      GNU General Public License v2 or later
+
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ Text Domain:  sparkling_child
+
+*/
+
+
+
+.recent-posts-wrapper .post {
+
+  float: left;
+
+  clear: both;
+
+  margin-bottom: 20px;
+
+}
+
+.recent-posts-wrapper .post .post-image {
+
+  width: 60px;
+
+  height: 60px;
+
+  float: left;
+
+  display: block;
+
+  border-radius: 4px;
+
+  -webkit-border-radius: 4px;
+
+  background-color: #DADADA;
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+
+}
+
+.recent-posts-wrapper .post .post-image img {
+
+  border-radius: 4px;
+
+  opacity: 1;
+
+  -webkit-transition: opacity  0.5s;
+
+     -moz-transition: opacity  0.5s;
+
+       -o-transition: opacity  0.5s;
+
+          transition: opacity  0.5s;
+
+}
+
+.recent-posts-wrapper .post .post-image img:hover {
+
+  opacity: 0.6 !important;
+
+}
+
+.recent-posts-wrapper .post .post-content {
+
+  margin-left: 80px;
+
+  }
+
+.sidebar__menu a {
+  color: #767676 !important;
+	
+}
+
+.sidebar__menu a:hover {
+  color: #DADADA !important;
+
+}
