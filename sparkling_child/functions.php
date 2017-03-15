@@ -20,7 +20,7 @@ function jp_theme_ma() {
 			array('parent-style')
 	);
 
-    wp_enqueue_script('modernizr', get_stylesheet_directory_uri() . '/inc/js/al-accordion.js');
+    wp_enqueue_script('al-accordion', get_stylesheet_directory_uri() . '/inc/js/al-accordion.js');
 
 }
 
