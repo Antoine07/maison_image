@@ -1,6 +1,10 @@
 (function($){
 
+	console.log('jQuery');
+
     $(".accordion-toggle").on('click', function(e) {
+
+    	console.log('toggle jquery');
 
         e.preventDefault();
 
