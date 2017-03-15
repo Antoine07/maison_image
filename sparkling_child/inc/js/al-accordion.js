@@ -1,21 +1,22 @@
+jQuery.noConflict();
 (function($){
 
-	console.log('jQuery');
+	$(function(){
+		 $(".accordion-toggle").on('click', function(e) {
 
-    $(".accordion-toggle").on('click', function(e) {
+		    	console.log('toggle jquery');
 
-    	console.log('toggle jquery');
+		        e.preventDefault();
 
-        e.preventDefault();
+		        if(typeof $(".entry-content h3:first") !== 'undefined')
+		        {
+		            var pos = $(".entry-content h3:first").position();
 
-        if(typeof $(".entry-content h3:first") !== 'undefined')
-        {
-            var pos = $(".entry-content h3:first").position();
+		            $("html, body").animate({ scrollTop: pos.top }, "slow");
 
-            $("html, body").animate({ scrollTop: pos.top }, "slow");
+		        }
 
-        }
-
-    })
+		    })
+	});
 
 })(jQuery)
