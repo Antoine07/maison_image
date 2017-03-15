@@ -8,15 +8,13 @@ add_action('wp_enqueue_scripts', 'jp_theme_ma', 99);
 
 function jp_theme_ma() {
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
-    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
     wp_dequeue_style('sparkling-style');
-    wp_enqueue_style('child-style',
             get_stylesheet_directory_uri() . '/style.css',
             ['parent-style']
     );
 
     if (is_single()) {
-        wp_enqueue_script('al-accordion', get_template_directory_uri() . '/in/js/al-accordion.js', ['jquery'],  false, true);
+        wp_enqueue_script('al-accordion', get_stylesheet_directory_uri() . '/inc/js/al-accordion.js', ['jquery'],  false, true);
     }
 }
 
