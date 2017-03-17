@@ -37,8 +37,8 @@ get_header(); ?>
                 endwhile;
 
                 the_posts_pagination([
-                        'prev_text' => '<i class="fa fa-chevron-left"></i>précédent',
-                        'next_text' => 'suivant<i class="fa fa-chevron-right"></i>',
+                        'prev_text' => '<i class="fa fa-chevron-left"></i> précédent',
+                        'next_text' => 'suivant <i class="fa fa-chevron-right"></i>',
                 ]);
 
             else :
