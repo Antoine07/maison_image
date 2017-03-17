@@ -4,7 +4,7 @@ jQuery.noConflict();
 	$(function(){
 		 $(".accordion-toggle").on('click', function(e) {
 
-		    	console.log('toggle jquery');
+		    	// console.log('toggle jquery');
 
 		        e.preventDefault();
 
