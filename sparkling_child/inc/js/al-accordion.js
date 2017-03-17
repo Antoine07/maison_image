@@ -4,11 +4,9 @@ jQuery.noConflict();
 	$(function(){
 		 $(".accordion-toggle").on('click', function(e) {
 
-		    	// console.log('toggle jquery');
-
 		        e.preventDefault();
 
-		        if(typeof $(".entry-content h3:first") !== 'undefined')
+		        if(typeof $(".entry-content h3:first") !== 'undefined' && window.matchMedia('(max-width: 768px)').matches == false)
 		        {
 		            var pos = $(".entry-content h3:first").position();
 
