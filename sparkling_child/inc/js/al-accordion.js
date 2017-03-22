@@ -6,6 +6,10 @@ jQuery.noConflict();
 
             e.preventDefault();
 
+            $(this).find('.panel-body');
+
+            console.log($(this).prev('.panel'))
+
             $("html, body").animate({scrollTop: $(this).offset().top - 200}, "slow");
 
         })

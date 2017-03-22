@@ -1,5 +1,14 @@
 # Theme WordPress
 
+#cmder
+Ouvir son dépôt localement sur sa machine
+
+cd pour change directory
+
+```
+cd C:\[address depot]
+```
+
 procédure d'échange de fichier
 
 ## connaître l'état de mon dépôt local

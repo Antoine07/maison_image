@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !/maintenance.html$
+#RewriteCond %{REMOTE_HOST} !^90\.53\.93\.193
+
+RewriteRule $ /maintenance.html [R=302,L]
