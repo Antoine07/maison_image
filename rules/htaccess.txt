@@ -1,4 +1,3 @@
-# SetEnv PHP_VER 7_0
 # BEGIN WordPress
 
 #ne pas lister les fichiers dans les dossiers
@@ -49,7 +48,5 @@ order allow,deny
 deny from all
 satisfy all
 </Files>
-
-
 
 # END WordPress
