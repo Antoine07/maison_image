@@ -2,13 +2,11 @@ jQuery.noConflict();
 (function ($) {
 
     $(function () {
-        $(".accordion-toggle").on('click', function (event) {
+        $(".accordion-toggle").on('click', function (e) {
 
-            var elem = $(this).offset()
+            e.preventDefault();
 
-            event.stopPropagation();
-
-            $("html, body").animate({scrollTop: elem.top}, "slow");
+            $("html, body").animate({scrollTop: $(this).offset().top - 200}, "slow");
 
         })
     });
